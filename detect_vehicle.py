@@ -8,7 +8,7 @@ import os  # ใช้สำหรับเสียงแจ้งเตือ�
 model = YOLO("yolov8x.pt")  # เปลี่ยนเป็น yolov8l.pt ได้ถ้าเครื่องช้า
 
 # เปิดวิดีโอ
-video_path = "/Users/fourwheel2005/Documents/traffic-ai/video/IMG_6388.mp4"
+video_path = "/Users/fourwheel2005/Documents/traffic-ai/video/IMG_63882.mp4"
 cap = cv2.VideoCapture(video_path)
 assert cap.isOpened(), "ไม่สามารถเปิดวิดีโอได้"
 
